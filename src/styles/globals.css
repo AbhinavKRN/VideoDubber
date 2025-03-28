@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .media-item {
+    position: absolute;
+    cursor: move;
+  }
+  
+  .media-item.selected {
+    border: 2px solid #3498db;
+  }
+  
+  .react-resizable-handle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #3498db;
+    border-radius: 50%;
+    bottom: -5px;
+    right: -5px;
+    cursor: se-resize;
+  }
+  
